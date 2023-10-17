@@ -7,7 +7,7 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-os.dotenv('SECRET_KEY', 'secret_key_django_backend')
+os.getenv('SECRET_KEY', 'secret_key_django_backend')
 
 DEBUG = True
 
