@@ -8,7 +8,8 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['158.160.4.189', '127.0.0.1', 'localhost', 'vladimirkolpakov.ddns.net']
+ALLOWED_HOSTS = ['158.160.4.189', '127.0.0.1',
+                 'localhost', 'vladimirkolpakov.ddns.net']
 
 
 # Application definition
@@ -110,7 +111,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static_backend/'
 STATIC_ROOT = BASE_DIR / 'collected_static'
 
 # Default primary key field type
